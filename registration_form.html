@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+      .header {
+      color:DimGray;
+      }
+      .box{
+      height:500px;
+      width:370px;
+      background-color:MistyRose;
+      text-align:center;
+      position:relative;
+      padding:25px;
+      margin:auto;
+      }
+      #label-text{
+      color:blue;
+      text-align:left;
+      font-size:14px;
+      padding:10px;
+      }
+    </style>
+</head>
+<body style="background-color:Seashell;text-align:center;">
+    <h1><div class="header"> Register/Sign Up </div></h1>
+    <div class="box">
+    <form method="post" action="signin.html">
+      <div id="label-text">
+        <label><b>Username</b></label><br>
+        <input type="text" name="Username" placeholder="Enter your username here"><br><br>
+        <label><b>Email</b></label><br>
+        <input type="email" name="Email Address" placeholder="Enter your Email here"><br><br>
+        <label><b>Phone Number</b></label><br>
+        <input type="number" name="Phone Number" placeholder="Enter your Phone here"><br><br>
+        <label><b>Gender</b></label><br>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="Others">Others <br><br>
+        <label><b>Password</b></label><br>
+        <input type="password" name="Password" placeholder="Enter your Password"><br><br>
+        <label><b>Confirm Password</b></label><br>
+        <input type="password" name="Confirm Password" placeholder="Confirm your Password"><br><br><br>
+        <input type="checkbox" name="User Agreement"><b>I confirm the above info is true to my knowledge.</b><br><br>
+      </div>
+      <input type="submit">
+    </form>
+    </div>
+</body>
+</html>
